@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Stoke:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Stoke:wght@300;400&display=swap');
+
+
+body {
+    background-color: #fff6c2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.h1 {
+    font-family: "Stoke", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color: #ff5517;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h2 {
+    font-family: "Stoke", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: #ff5517;
+
+    margin-bottom: -10px;
+}
+
+.p {
+    font-family: "Archivo", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    margin-bottom: 40px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph-quote {
+    font-family: "Archivo", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 20px;
+    max-width: 50ch;
+    margin-top: 50px;
+    text-align:justify;
+    line-height: 1.25;
+}
+
+.paragraph {
+    font-family: "Archivo", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    max-width: 50ch;
+    margin-top: 30px;
+
+    text-align:justify;
+    line-height: 1.25;
+}
+
+.ul {
+    list-style-type: disc; 
+    padding: 0;
+    margin: 0;
+    font-family: "Archivo", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    max-width: 50ch;
+
+}
+
+.li { 
+    margin-bottom: 8px; 
+    padding: 2px; 
+}
+
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+    gap: 1px; /* Adjust the gap between images as needed */
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.image-item {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.image-item img {
+    max-width: 70%; /* Ensure images don't exceed their container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.image-caption {
+    text-align: center;
+    padding: 8px;
+    font-family: "Archivo", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+
+}
+
+
+
+
+
+
+
+
