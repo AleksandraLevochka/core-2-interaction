@@ -1,0 +1,1 @@
+I created a calendar using display: grid because the structure of it fits to the property. I also used display: flex to horizontlly and vertically center the header on the page. 
