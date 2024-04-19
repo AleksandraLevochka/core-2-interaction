@@ -5,23 +5,26 @@ body, html {
 }
 
 .container {
-    display: flex;
+    display:flex;
     height: 100%;
 }
 
-.left-side, .right-side {
+.left-side, 
+.right-side {
     flex: 1;
     height: 100%;
 }
 
 .left-side {
     background-color:beige;
-    height: 1300px;
+    height: 2300px;
 }
 
 .right-side {
     background-color:thistle;
-    height: 1300px;
+    height: 2300px;
+    align-items: center;
+    justify-content: center;
 }
 
 .h2 {
@@ -56,14 +59,24 @@ body, html {
 
 /* visualization */
 
-.bar {
-    display: inline-block;
-    width: 40px;
-    background-color: #007bff;
-    margin-right: 10px;
+#weatherChart {
+    margin-left: 130px;
+    margin-top: 80px;
 }
 
 .chart {
-    margin: 20px;
+    margin: 20px auto;
+    width: 80%; 
+    max-width: 600px; 
+    text-align: center;
 }
+
+.bar {
+    display: inline-block;
+    width: 40px;
+    background-color:cornflowerblue;
+    margin-right: 10px;
+}
+
+
   

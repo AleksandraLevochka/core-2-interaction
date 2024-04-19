@@ -6,7 +6,7 @@ let extractedData;
 fetch("https://api.weather.gov/gridpoints/TOP/31,80/forecast") 
     .then(response => response.json())
     .then(data => {
-        const wantedPeriods = data.properties.periods.slice(0, 6);
+        const wantedPeriods = data.properties.periods.slice(0, 11);
         extractedData = wantedPeriods.map(period => ({
             name: period.name,
             startTime: period.startTime,
@@ -21,7 +21,7 @@ extractedData.forEach(period => {
     const barHeight = period.temperature;
     const barElement = document.createElement('div');
     barElement.classList.add('bar');
-    barElement.style.height = barHeight + 'px';
+    barElement.style.height = barHeight + '5px';
     weatherChartContainer.appendChild(barElement);
 });
 
