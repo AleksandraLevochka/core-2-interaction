@@ -1,0 +1,114 @@
+{ 
+    "places": [
+    {
+      "name": "San Juan",
+      "country": "Puerto Rico",
+      "year": "2024",
+      "duration": "4 days",
+      "flag": [
+        "red",
+        "blue",
+        "white"
+       ]
+    },
+    {
+      "name": "Paris",
+      "country": "France",
+      "year": "2023",
+      "duration": "3 days",
+      "flag": [
+        "red",
+        "blue",
+        "white"
+      ]
+    },
+    {
+      "name": "Frankfurt",
+      "country": "Germany",
+      "year": "2023",
+      "duration": "1 day",
+      "flag": [
+        "red",
+        "yellow",
+        "black"
+      ]
+    },
+    {
+      "name": "Dusseldorf",
+      "country": "Germany",
+      "year": "2023",
+      "duration": "67 days",
+      "flag": [
+        "red",
+        "yellow",
+        "black"
+      ]
+    },
+    {
+      "name": "Mexico City",
+      "country": "Mexico",
+      "year": "2017",
+      "duration": "5 days",
+      "flag": [
+        "red",
+        "green",
+        "white"
+      ]
+    },
+    {
+      "name": "Mallorca",
+      "country": "Spain",
+      "year": "2019",
+      "duration": "3 days",
+      "flag": [
+        "red",
+        "yellow"
+      ]
+    },
+    {
+      "name": "Marseille",
+      "country": "France",
+      "year": "2016",
+      "duration": "6 days",
+      "flag": [
+        "red",
+        "blue",
+        "white"
+      ]
+    },
+    {
+      "name": "Male",
+      "country": "Maldives",
+      "year": "2021",
+      "duration": "11 days",
+      "flag": [
+        "red",
+        "green",
+        "white"
+      ]
+    },
+    {
+      "name": "San-Francisco",
+      "country": "USA",
+      "year": "2019",
+      "duration": "18 days",
+      "flag": [
+        "red",
+        "blue",
+        "white"
+      ]
+    },
+    {
+      "name": "Banjul",
+      "country": "The Gambia",
+      "year": "2019",
+      "duration": "17 days",
+      "flag": [
+        "red",
+        "blue",
+        "green",
+        "white"
+      ]
+    }
+  ]
+  }

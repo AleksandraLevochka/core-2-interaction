@@ -15,6 +15,8 @@ fetch("https://api.weather.gov/gridpoints/TOP/31,80/forecast")
             windSpeed: period.windSpeed
         }));
 
+// viz on the right side 
+
 const weatherChartContainer = document.getElementById('weatherChart');
 
 extractedData.forEach(period => {
