@@ -1,0 +1,45 @@
+body {
+    font-family: 'Gill Sans', sans-serif;
+    font-weight: 400;
+    color: wheat;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.circle {
+    background-color: blue;
+    border-radius: 50%;
+    width: 50vh;
+    height: 50vh;
+}
+
+.forecast {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 2ch;
+}
+
+.name {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.temperature {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.short-forecast {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
