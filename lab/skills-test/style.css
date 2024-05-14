@@ -16,30 +16,20 @@ body {
     border-radius: 50%;
     width: 50vh;
     height: 50vh;
+    overflow: hidden;
 }
 
 .forecast {
-    font-size: 25px;
+    font-size: 1.563em;
     text-align: center;
     margin-top: 40px;
     line-height: 2ch;
 }
 
-.name {
-    font-size: 20px;
-    text-align: center;
-    margin-top: 40px;
-}
-
-.temperature {
-    font-size: 20px;
-    text-align: center;
-    margin-top: 40px;
-}
-
+.name, 
+.temperature, 
 .short-forecast {
-    font-size: 20px;
+    font-size: 1.25em;
     text-align: center;
     margin-top: 40px;
 }
-
